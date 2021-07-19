@@ -2,8 +2,31 @@
 //with latest version of react we don't need to write import react evrywhere we use jsx, babel is smart enough to know that where we use jsx its need react
 
 import { render } from "react-dom";
-import Pet from "./Pet";
+import { ErrorBoundary } from "react-error-boundary";
 import SearchParams from "./SearchParams";
+
+function ErrorFallback({ error }) {
+  return (
+    <div role="alert">
+      <p>Something went wrong:</p>
+
+      <pre style={{ color: "red" }}>{error.message}</pre>
+    </div>
+  );
+}
+
+const App = () => {
+  return (
+    <div>
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <h1>Adopt Me!</h1>
+        <SearchParams />
+      </ErrorBoundary>
+    </div>
+  );
+};
+
+render(<App />, document.getElementById("root"));
 
 // const App = () => {
 //   return React.createElement("div", {}, [
@@ -27,13 +50,3 @@ import SearchParams from "./SearchParams";
 // };
 // here App is a react component so its like a rubber stamp that we can use many times
 //these curly braces here are actually used to pass attributed to elements like id, class etc
-
-const App = () => {
-  return (
-    <div>
-      <h1>Adopt Me!</h1>
-      <SearchParams />
-    </div>
-  );
-};
-render(<App />, document.getElementById("root")); // here we are actually rendering a component i.e "App"
