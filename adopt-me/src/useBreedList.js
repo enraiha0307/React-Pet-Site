@@ -1,4 +1,3 @@
-import "regenerator-runtime/runtime"; //use it evrytime you use async function inyour js files
 import { useState, useEffect } from "react";
 
 const localCache = {};

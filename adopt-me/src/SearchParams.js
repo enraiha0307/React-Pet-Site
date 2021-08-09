@@ -1,7 +1,5 @@
-import "regenerator-runtime/runtime";
-//use it evrytime you use async function inyour js files otherwise error will occur took me a lot of time to find it
-
-import { useEffect, useState } from "react";
+import { useState, useEffect, useContext } from "react";
+import ThemeContext from "./ThemeContext";
 import useBreedList from "./useBreedList";
 import Results from "./Results";
 
@@ -13,6 +11,7 @@ const SearchParams = () => {
   const [breed, updateBreed] = useState("");
   const [pets, setPets] = useState([]);
   const [breeds] = useBreedList(animal);
+  const [theme, setTheme] = useContext(ThemeContext);
 
   useEffect(() => {
     requestPets();
@@ -77,7 +76,20 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
-        <button>Submit</button>
+        <label htmlFor="theme">
+          Theme
+          <select
+            value={theme}
+            onChange={(e) => setTheme(e.target.value)}
+            onBlur={(e) => setTheme(e.target.value)}
+          >
+            <option value="#000000">Luxe-Black</option>
+            <option value="#FF449F">Pretty-Pink</option>
+            <option value="#00EAD3">Pastel-Blue</option>
+            <option value="#480032">Neon-Purple</option>
+          </select>
+        </label>
+        <button style={{ backgroundColor: theme }}>Submit</button>
       </form>
       <Results pets={pets} />
     </div>
