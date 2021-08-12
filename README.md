@@ -40,9 +40,9 @@ A Pet Adopting React App which uses a public pet API, Sass for styling. Created 
 ![5](https://user-images.githubusercontent.com/26249973/129167428-98feaa83-b644-4379-8f84-6bc5a7459ea1.png)
 ### Built With
 
-* [React]
-* [Parcel]
-* [Redux]
+* [React]()
+* [Parcel]()
+* [Redux]()
 
 
 
