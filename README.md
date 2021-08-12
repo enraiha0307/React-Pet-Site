@@ -64,7 +64,7 @@ git clone https://github.com/github_username/repo_name.git
 npm install
 ```
 
-For Brian Holt Notes click below:
+For Brian Holt Notes click:
 [https://btholt.github.io/complete-intro-to-react-v6/](https://btholt.github.io/complete-intro-to-react-v6/)
 
 
