@@ -34,8 +34,10 @@
 
 A Pet Adopting React App which uses a public pet API, Sass for styling. Created different versions by applying Tailwind CSS, Typescript, Code Splitting, Server-Side Rendering, Redux, and Unit Tests.
 
-
-
+![1](https://user-images.githubusercontent.com/26249973/129167394-efd0a9a6-adc0-4e5a-bcdd-bb6c78d3e529.png)
+![2](https://user-images.githubusercontent.com/26249973/129167406-b6579981-dd67-4f75-96bb-46ba31ca9867.png)
+![4](https://user-images.githubusercontent.com/26249973/129167417-736e47d7-05b5-4d0e-8f64-23f12ce766d3.png)
+![5](https://user-images.githubusercontent.com/26249973/129167428-98feaa83-b644-4379-8f84-6bc5a7459ea1.png)
 ### Built With
 
 * [React]
