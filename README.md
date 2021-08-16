@@ -100,7 +100,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/AkankshaGahalot) 
+Your Name - [@AkankshaGahalot](https://twitter.com/AkankshaGahalot) 
 
 Project Link: [https://github.com/enraiha0307/React-Pet-Site](https://github.com/enraiha0307/React-Pet-Site)
 
