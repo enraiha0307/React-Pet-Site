@@ -12,8 +12,7 @@
   <h3 align="center">Adopt-Me: Pet Adoption Site</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
+   
     <a href="https://github.com/enraiha0307/React-Pet-Site"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -22,6 +21,8 @@
     <a href="https://github.com/enraiha0307/React-Pet-Site/issues">Report Bug</a>
     ·
     <a href="https://github.com/enraiha0307/React-Pet-Site/issues">Request Feature</a>
+  <br />
+  Please Disable the protection of your browser to see the app demo
   </p>
 </p>
 
