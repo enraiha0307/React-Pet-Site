@@ -9,10 +9,11 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Adopt-Me: Pet Adoption Site</h3>
+  <h3 align="center">Adopt-Me</h3>
 
   <p align="center">
-   
+    A Pet Adoption Site
+  <br />
     <a href="https://github.com/enraiha0307/React-Pet-Site"><strong>Explore the docs »</strong></a>
     <br />
     <br />
