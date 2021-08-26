@@ -17,7 +17,7 @@
     <a href="https://github.com/enraiha0307/React-Pet-Site"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/enraiha0307/React-Pet-Site">View Demo</a>
+    <a href="https://enraiha0307.github.io/Adopt-Me/">View Demo</a>
     ·
     <a href="https://github.com/enraiha0307/React-Pet-Site/issues">Report Bug</a>
     ·
